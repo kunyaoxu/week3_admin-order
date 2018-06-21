@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/pageHome/Home.css';
-//import Mynavbar from './Mynavbar.js';
+import Transwebitems from './Transwebitems.js';
 
 
 
@@ -35,7 +35,7 @@ class Home extends Component {
           <div className="trans_latest">
               <div className="transaction background_shadow_padding">
                   <label className="title">Transaction Website</label>
-                  <div className="transwebitems"></div>
+                  <Transwebitems />
               </div>
               <div className="latest background_shadow_padding">
                   <label className="title">Latest Orders</label>

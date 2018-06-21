@@ -1,0 +1,42 @@
+/* Transwebitems css */
+
+.Transwebitems {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Transwebitems>.transwebitem {
+    display: flex;
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.Transwebitems>.transwebitem:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.Transwebitems>.transwebitem>* {
+    margin: auto 0;
+}
+
+.Transwebitems>.transwebitem>.icon {
+    font-size: 45px;
+    margin-right: 20px;
+}
+
+.Transwebitems>.transwebitem>.websitename {
+    margin-right: auto;
+}
+
+.Transwebitems>.transwebitem>.number {
+    margin-right: 20px;
+}
+
+.Transwebitems>.transwebitem>.arrow {
+    margin-right: 8px;
+    font-size: 18px;
+}
