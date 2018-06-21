@@ -1,0 +1,66 @@
+/* Home css*/
+.Home>* {
+}
+
+.Home>.overview {
+}
+
+.Home .background_shadow_padding {
+    background-color: white;
+    box-shadow: 0 0 10px 5px #EBEBEB;
+    padding: 30px 40px;
+}
+
+.Home>.overview>.header {
+    display: flex;
+}
+
+.Home>.overview>.header>label {
+    margin-bottom: 0;
+}
+
+.Home>.overview>.header>.timeinfo {
+    margin-left: auto;
+}
+
+.Home>.overview>.list{
+    display: flex;
+}
+
+.Home>.overview>.list>.item{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: calc(100% / 3);
+    margin-right: 20px;
+}
+
+.Home>.overview>.list>.item:last-child{
+    margin-right: 0px;
+}
+
+.Home>.overview>.list>.item>* {
+    display: block;
+    margin: auto auto;
+}
+
+.Home>.activity {
+    margin: 20px auto;
+}
+
+.Home>.trans_latest {
+    display: flex;
+}
+
+.Home>.trans_latest>* {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.Home>.trans_latest>*:last-child {
+    margin-right: 0;
+}
+
+.Home>.trans_latest .title {
+    margin-bottom: 30px;
+}
