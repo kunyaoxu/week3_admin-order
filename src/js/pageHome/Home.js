@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/pageHome/Home.css';
 import Transwebitems from './Transwebitems.js';
+import Latestorders from './Latestorders.js';
 
 
 
@@ -39,6 +40,7 @@ class Home extends Component {
               </div>
               <div className="latest background_shadow_padding">
                   <label className="title">Latest Orders</label>
+                  <Latestorders />
               </div>
           </div>
             

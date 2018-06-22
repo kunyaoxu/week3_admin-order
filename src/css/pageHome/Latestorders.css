@@ -1,0 +1,86 @@
+/* Latestorders css */
+
+.Latestorders{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Latestorders>.latestorder {
+    display: flex;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.Latestorders>.latestorder:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.Latestorders>.latestorder>.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.Latestorders>.latestorder>.detail {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.Latestorders>.latestorder>.detail>.itemname {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s>* {
+    display: flex;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s>.time_total>.total {
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s .fas {
+    color: #757575;
+    width: 16px;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s .fa-male:before {
+    position: relative;
+    content: "\f183";
+    left: 5px;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s .price {
+    font-weight: bold;
+}
+
+
+.Latestorders>.latestorder>.detail>.detail_s label {
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.Latestorders>.latestorder>.detail>.detail_s .gray {
+    color: #9B9B9B;
+    font-size: 14px;
+}
+
+

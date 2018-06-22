@@ -40,7 +40,11 @@ class Transwebitems extends Component {
               <label className="percentage">20%</label>
           </div>
           <div className="transwebitem">
-              123
+              <i className="icon fab fa-facebook"></i>
+              <label className="websitename">Facebook.com</label>
+              <label className="number">145,836</label>
+              <i className="arrow fas fa-arrow-down"></i>
+              <label className="percentage">20%</label>
           </div>
           <div className="transwebitem">
               123
