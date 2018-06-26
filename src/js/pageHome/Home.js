@@ -102,20 +102,35 @@ class Home extends Component {
       <div className="Home">
           <div className="overview">
               <div className="header">
-                  <label>OVERVIEW</label>
-                  <div className="timeinfo">time info.</div>
+                  <label className="title">OVERVIEW</label>
+                  <div className="timeinfo">
+                      <label>2018/6/18</label>
+                      <i className="fas fa-caret-right"></i>
+                      <label>2018/6/20</label>
+                      <div className="selecttime btn-group">
+                          <label className="selecttimebtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Weekly
+                          <i className="fas fa-caret-down"></i>
+                          </label>
+                          <div className="dropdown-menu dropdown-menu-right">
+                              <button className="dropdown-item" type="button">Daily</button>
+                              <button className="dropdown-item" type="button">Weekly action</button>
+                              <button className="dropdown-item" type="button">Monthly</button>
+                          </div>
+                      </div>
+                  </div>
               </div>
               <div className="list">
                   <div className="item background_shadow_padding">
-                       <label><i class="fas fa-hand-holding-usd"></i>title red</label>
+                       <label><i className="fas fa-hand-holding-usd"></i>title red</label>
                        <label className="red">54,540</label>
                   </div>
                   <div className="item background_shadow_padding">
-                       <label><i class="fas fa-boxes"></i>title green</label>
+                       <label><i className="fas fa-boxes"></i>title green</label>
                        <label className="green">54,540</label>
                   </div>
                   <div className="item background_shadow_padding">
-                       <label className="itemtitle"><i class="fas fa-money-bill"></i>title blue</label>
+                       <label className="itemtitle"><i className="fas fa-money-bill"></i>title blue</label>
                        <label className="blue">54,540</label>
                   </div>
               </div>
