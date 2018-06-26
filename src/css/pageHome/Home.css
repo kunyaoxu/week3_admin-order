@@ -44,8 +44,42 @@
     margin: auto auto;
 }
 
+.Home>.overview>.list>.item .fas{
+    margin-right: 8px;
+}
+
+.Home>.overview>.list>.item>.red {
+    color: #D0021B;
+}
+
+.Home>.overview>.list>.item>.green {
+    color: #7ED321;
+}
+
+.Home>.overview>.list>.item>.blue {
+    color: #4A90E2;
+}
+
+.Home>.overview>.list>.item>label:nth-child(1){
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+
+.Home>.overview>.list>.item>label:nth-child(2) {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+
 .Home>.activity {
     margin: 20px auto;
+}
+
+.Home>.activity>.title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .Home>.trans_latest {

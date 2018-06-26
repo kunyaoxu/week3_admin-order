@@ -50,10 +50,36 @@ class Latestorders extends Component {
             </div>
           </div>
           <div className="latestorder">
-            123
+            <div className="image" style={imagestyle}></div>
+            <div className="detail">
+                <label className="itemname">i am item name</label>
+                <div className="detail_s">
+                    <div className="time_total">
+                        <div className="gray"><i className="fas fa-clock"></i>2018/6/13</div>
+                        <label className="total">total</label>
+                    </div>
+                    <div className="user_price">
+                        <div className="gray"><i className="fas fa-male"></i>jack roman</div>
+                        <label className="price">3,200</label>
+                    </div>
+                </div>
+            </div>
           </div>
           <div className="latestorder">
-            123
+            <div className="image" style={imagestyle}></div>
+            <div className="detail">
+                <label className="itemname">i am item name</label>
+                <div className="detail_s">
+                    <div className="time_total">
+                        <div className="gray"><i className="fas fa-clock"></i>2018/6/13</div>
+                        <label className="total">total</label>
+                    </div>
+                    <div className="user_price">
+                        <div className="gray"><i className="fas fa-male"></i>jack roman</div>
+                        <label className="price">3,200</label>
+                    </div>
+                </div>
+            </div>
           </div>
       </div>
     );

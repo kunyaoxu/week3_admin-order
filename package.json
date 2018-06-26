@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://kunyaoxu.github.io/week3_admin-order/build",
   "dependencies": {
+    "chart.js": "^2.7.2",
     "react": "^16.4.0",
+    "react-chartjs-2": "^2.7.2",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4"
   },
