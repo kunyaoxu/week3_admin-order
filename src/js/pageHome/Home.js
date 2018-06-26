@@ -114,7 +114,7 @@ class Home extends Component {
                           </label>
                           <div className="dropdown-menu dropdown-menu-right">
                               <button className="dropdown-item" type="button">Daily</button>
-                              <button className="dropdown-item" type="button">Weekly action</button>
+                              <button className="dropdown-item" type="button">Weekly</button>
                               <button className="dropdown-item" type="button">Monthly</button>
                           </div>
                       </div>
